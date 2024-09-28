@@ -4,6 +4,7 @@ import Age from "../components/Age";
 import Handle from "../components/Handle";
 import Subject from "../components/Subject";
 import ButtonComponent from "../components/ButtonComponent";
+import ImageComponent from "../components/ImageComponent";
 
 const Index = () => {
   return (
@@ -13,6 +14,7 @@ const Index = () => {
       <Handle />
       <Subject />
       <ButtonComponent/>
+      <ImageComponent/>
     </View>
   );
 };
