@@ -6,11 +6,12 @@ import Subject from "../components/Subject";
 import ButtonComponent from "../components/ButtonComponent";
 import ImageComponent from "../components/ImageComponent";
 import Card from "../components/Card";
+import DynamicContent from "../components/DynamicContent";
 
 const Index = () => {
   return (
     <View>
-      <Card/>
+      <DynamicContent/>
     </View>
   );
 };
