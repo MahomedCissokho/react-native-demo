@@ -8,11 +8,13 @@ import ImageComponent from "../components/ImageComponent";
 import Card from "../components/Card";
 import DynamicContent from "../components/DynamicContent";
 import CarCard from "../components/CarCard";
+import InlineStyle from "../components/InlineStyle";
+import InternalStyle from "../components/InternalStyle";
 
 const Index = () => {
   return (
     <View>
-      <CarCard/>
+      <InternalStyle/>
     </View>
   );
 };
